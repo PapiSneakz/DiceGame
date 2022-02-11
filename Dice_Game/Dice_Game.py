@@ -8,7 +8,7 @@ while True:
     response = input("You have " + str(cash) + "$ (a game costs $20) \nYou wanna role the dice?(type yes or no): ")
     response = response.upper()
     if response == "NO":
-        pass
+        break
     while response != "YES" and response != "NO":
         response = input("Type yes or no")
 
